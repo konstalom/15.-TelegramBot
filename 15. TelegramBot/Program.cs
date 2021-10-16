@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 
-var botClient = new TelegramBotClient("2072998845:AAG8ylM1aTOaIi7lyfBQuU04r_kbX-OSiu8");
+var botClient = new TelegramBotClient("//access token//");
 
 var me = await botClient.GetMeAsync();
 
